@@ -3,7 +3,7 @@
     "description": "JWT Authentication based on Lexik and Gesdinet packages",
     "type": "symfony-bundle",
     "minimum-stability": "stable",
-    "version": "stable",
+    "version": "1.0",
     "require": {
         "lexik/jwt-authentication-bundle": "^2.16",
         "symfony/orm-pack": "^2.2"
