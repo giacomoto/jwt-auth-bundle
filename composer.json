@@ -1,0 +1,22 @@
+{
+    "name": "luckyseven/jwt-auth",
+    "description": "JWT Authentication based on Lexik and Gesdinet packages",
+    "type": "symfony-bundle",
+    "minimum-stability": "stable",
+    "version": "1.0",
+    "require": {
+        "lexik/jwt-authentication-bundle": "^2.16",
+        "symfony/orm-pack": "^2.2"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Luckyseven\\Bundle\\LuckysevenJwtAuthBundle\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Luckyseven S.r.l."
+        }
+    ]
+}
