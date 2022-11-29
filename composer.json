@@ -6,12 +6,12 @@
     "version": "1.0",
     "require": {
         "lexik/jwt-authentication-bundle": "^2.16",
-        "symfony/orm-pack": "^2.2"
+        "gesdinet/jwt-refresh-token-bundle": "^1.1"
     },
     "license": "MIT",
     "autoload": {
         "psr-4": {
-            "Luckyseven\\Bundle\\LuckysevenJwtAuthBundle\\": "src/"
+            "Luckyseven\\Bundle\\LuckysevenJwtAuthBundle\\": ""
         }
     },
     "authors": [
