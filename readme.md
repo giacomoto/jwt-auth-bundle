@@ -36,6 +36,7 @@ git config --global --add safe.directory /var/www/html/vendor/luckyseven/jwt-aut
 ## Install
 ```
 composer require symfony/orm-pack
+composer require doctrine/annotations
 composer require luckyseven/jwt-auth:dev-main
 
 composer recipes:install luckyseven/jwt-auth --force -v
