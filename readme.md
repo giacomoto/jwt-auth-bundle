@@ -28,6 +28,11 @@ The solution is to create an ad hoc provider for Gesdinet.
 }
 ```
 
+## Make the repository trusted
+```bash
+git config --global --add safe.directory /var/www/html/vendor/luckyseven/jwt-auth
+```
+
 ## Install
 ```
 composer require symfony/orm-pack
