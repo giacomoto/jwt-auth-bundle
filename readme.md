@@ -129,6 +129,31 @@ security:
         - { path: ^/api/v1/auth/refresh, roles: PUBLIC_ACCESS }
 ```
 
+# Usage
+
+## ES: Create JWT manually
+```php
+<?php
+
+namespace App\Controller;
+
+use Luckyseven\Bundle\LuckysevenJwtAuthBundle\Service\JwtAuthService;
+
+class AuthController
+{
+    public function register(
+        JwtAuthService $jwtAuthService,
+    ): JsonResponse
+    {
+        $user  = // create user
+        
+        $jwt = $jwtAuthService->create($user);
+
+        // return
+    }
+}
+```
+
 # Finish
 - Remove the unnecessary file routes/gesdinet_jwt_refresh_token.yaml 
 - Remove the unnecessary entity RefreshToken.php
